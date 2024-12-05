@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* fotos  */
+
+header img {
+    width: 11em;
+    height: 9em;
+    }
+
+#podcast img{
+    width: 15em;
+    height: 15em;
+}
+
+article img{
+    width: 15em;
+    height: 15em;
+}
+
+#onzepodcast img{
+    width: 20em;
+    height: 15em;
+}
+main img{
+    padding: 1em;
+}
+
+header img{
+    justify-content:flex-start;
+    align-items: flex-start;
+    padding: 2em;
+}
+
+
+/* header */
+
+nav ul{
+    display: flex;
+    list-style: none;
+    flex-direction: row-reverse;
+    justify-content: left;
+    gap: 10em;
+    padding: 5em;
+    padding-bottom: 20em;
+
+}
+
+
+header {
+    display: flex;
+    background-color: #F19B95;
+    font-size: x-large;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    transform:translateX(-3em)
+}
+
+/* footer  */
+
+footer{
+    background-color: #F2D5DA;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+
+footer div{
+    padding: 4em;
+    padding-left: 7em;
+    padding-right: 15em;
+}
+
+footer ul{
+    list-style: none;
+    align-items: center;
+}
+
+
+/* afleveringen */
+
+#headerlicht{
+    background-color: #F2D5DA;
+}
+
+article{
+    padding: 1em;
+    margin: 2em;
+    background-color: #FFB8B3;
+    border-radius: 2em;
+    display: flex;
+}
+
+article div {
+    padding: 3em
+}
+
+.aflevering{
+    color: #C35252;
+ }
+
+
+/* over ons */
+
+ #headerkleurgroen{
+    background-color: #C6DB9E;
+}
+
+
+/* homepagina  */
+
+#podcast {
+    display: flex;
+    padding: 1em;
+    border: solid #EA6363 1em;
+    margin: 2em;
+    margin-left: 9em;
+    margin-right: 9em;
+    align-items: center;
+    font-size: larger;
+}
+
+
+
+
+
+
+
+
+
+
+.leesmeer{
+font-weight:800
+}
